@@ -49,34 +49,62 @@ Java Project 2025/
 
 ### Prerequisites
 - Java Development Kit (JDK) 11 or higher
-- SQLite JDBC Driver (included in dependencies)
+- Git (for cloning)
 
-### Installation
+### Quick Start (Easiest Way)
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/smart-parking-system.git
-   cd smart-parking-system
+   git clone https://github.com/Mounil2005/smart-parking-management-system.git
+   cd smart-parking-management-system
    ```
 
-2. **Download Dependencies**
+2. **Run using the batch file** (Windows)
+   ```bash
+   run.bat
+   ```
+   
+   That's it! The application will compile and run automatically.
+
+### Manual Installation
+
+If you prefer to run manually or are on Linux/Mac:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Mounil2005/smart-parking-management-system.git
+   cd smart-parking-management-system
+   ```
+
+2. **Download Dependencies** (if not included)
    - SQLite JDBC: `sqlite-jdbc-3.46.1.3.jar`
    - SLF4J API: `slf4j-api-2.0.9.jar`
    - SLF4J Simple: `slf4j-simple-2.0.9.jar`
+   
+   Place these JAR files in the project root directory.
 
 3. **Compile the project**
+   
+   **Windows:**
    ```bash
    javac -cp ".;sqlite-jdbc-3.46.1.3.jar;slf4j-api-2.0.9.jar;slf4j-simple-2.0.9.jar" *.java
    ```
+   
+   **Linux/Mac:**
+   ```bash
+   javac -cp ".:sqlite-jdbc-3.46.1.3.jar:slf4j-api-2.0.9.jar:slf4j-simple-2.0.9.jar" *.java
+   ```
 
 4. **Run the application**
+   
+   **Windows:**
    ```bash
    java -cp ".;sqlite-jdbc-3.46.1.3.jar;slf4j-api-2.0.9.jar;slf4j-simple-2.0.9.jar" ParkingSystemMain
    ```
-
-   Or simply use the batch file (Windows):
+   
+   **Linux/Mac:**
    ```bash
-   run.bat
+   java -cp ".:sqlite-jdbc-3.46.1.3.jar:slf4j-api-2.0.9.jar:slf4j-simple-2.0.9.jar" ParkingSystemMain
    ```
 
 ## 🔐 Login Credentials
