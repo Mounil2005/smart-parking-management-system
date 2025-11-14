@@ -206,10 +206,7 @@ This project was developed as a team effort with the following module distributi
 
 This project is developed for educational purposes.
 
-## 👥 Authors
 
-- Your Team Name
-- Contact: your.email@example.com
 
 ## 🙏 Acknowledgments
 
