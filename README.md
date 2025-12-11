@@ -207,7 +207,6 @@ This project was developed as a team effort with the following module distributi
 This project is developed for educational purposes.
 
 
-
 ## 🙏 Acknowledgments
 
 - Java Swing documentation
